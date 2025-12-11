@@ -6,8 +6,8 @@ print("Hello ")
 a=int(input("Enter A:"))
 b=int(input("Enter B:"))
 
-len=int(input("Enter Length:"))
-bre=int(input("Enter Breadth:"))
+len=float(input("Enter Length:"))
+bre=float(input("Enter Breadth:"))
 
 ar.add(a,b)
 ar.sub(a,b)

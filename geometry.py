@@ -1,6 +1,6 @@
-def calc_rect_area(a,b):
-    print("Area of rectangle:"(a*b))
+def calc_rect_area(len,bre):
+    print("Area of rectangle:"(len*bre))
 
-def calc_rect_peri(a,b):
-    print("Perimiter of circle:"(2(a+b)))
+def calc_rect_peri(len,bre):
+    print("Perimiter of Rectangle:"(2(len+bre)))
 
