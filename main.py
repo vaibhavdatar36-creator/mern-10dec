@@ -1,5 +1,4 @@
 import arithmetic as ar
-import geometry
 from geometry import calc_rect_peri as peri
 from geometry import calc_rect_area as area
 
