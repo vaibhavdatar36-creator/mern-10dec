@@ -1,10 +1,14 @@
-const express=require("express")
-const studentRouter=require('./routes/student')
-const app=express()
+const express = require('express');
 
+const userRouter = require('./routes/user')
+const authUser = require('./utils/auth')
+const app = express();
+
+// middlewares
 app.use(express.json())
-app.use('/students',studentRouter)
+app.use(authUser)
+app.use('/user', userRouter)
 
-app.listen(4444,'localhost',()=>{
-    console.log("server started at port 4000")
-})
+app.listen(4000, 'localhost', () => {
+    console.log('Server is running on 4000');
+});

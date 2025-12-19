@@ -1,0 +1,15 @@
+{
+  "name": "java-script-3",
+  "version": "1.0.0",
+  "description": "this is my trial",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "demo01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
